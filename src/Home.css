@@ -1,0 +1,101 @@
+.home-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #0a0e27;
+  }
+  
+ /* styles.css or Home.module.css */
+.background-section {
+    position: relative;
+    width: 100%;
+    min-width: 320px;
+    max-width: 648px;
+    height: 100%;
+    background-color: #0a0e27;
+    border-radius: 40px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: auto; /* Center the container horizontally */
+  }
+  
+  /* styles.css or Home.module.css */
+.map-markers {
+    position: absolute;
+    top: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .map-marker {
+    width: 200px; /* Adjust width as needed */
+    height: 200px; /* Adjust height as needed */
+  }
+  
+  
+  .content-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+  }
+  
+  .scooter-image {
+    width: 200px;
+    height: auto;
+  }
+  
+  .text-section {
+    text-align: center;
+    color: white;
+  }
+  
+  .text-section h1 {
+    margin: 0;
+  }
+  
+  .road-section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .road {
+    width: 90%;
+    height: 100px;
+    background: linear-gradient(135deg, #000000 25%, transparent 25%) -10px 0/ 20px 20px,
+                linear-gradient(225deg, #000000 25%, transparent 25%) -10px 0/ 20px 20px,
+                linear-gradient(315deg, #000000 25%, transparent 25%) 0px 0/ 20px 20px,
+                linear-gradient(45deg, #000000 25%, transparent 25%) 0px 0/ 20px 20px;
+    position: relative;
+  }
+  
+  .car {
+    width: 20px;
+    height: 10px;
+    position: absolute;
+    bottom: 10px;
+  }
+  
+  .car-white {
+    background-color: white;
+    left: 50px;
+  }
+  
+  .car-yellow {
+    background-color: yellow;
+    right: 50px;
+  }
+  /* CSS file or style block */
+.big-text {
+  font-size: 3em; /* You can adjust the size as needed */
+  font-weight: bold; /* Optional: Makes the text bold */
+}
+
+  

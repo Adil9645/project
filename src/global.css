@@ -1,0 +1,13 @@
+/* Home.css */
+.car-container {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .car-image {
+    width: 100px; /* Adjust size as needed */
+  }
+  
